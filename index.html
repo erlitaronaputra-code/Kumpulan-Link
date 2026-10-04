@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Web & Aplikasi - Erli Tarona Putra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: #3b82f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 { font-size: 20px; font-weight: 700; margin-bottom: 6px; text-align: center; }
+        p.bio { font-size: 14px; color: #94a3b8; text-align: center; margin-bottom: 32px; }
+        .links-list { width: 100%; display: flex; flex-direction: column; gap: 14px; }
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 20px;
+            border-radius: 12px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+            backdrop-filter: blur(10px);
+        }
+        .link-card:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        .link-card span { display: flex; align-items: center; gap: 12px; }
+        footer { margin-top: 40px; font-size: 12px; color: #64748b; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">EP</div>
+        <h1>Kumpulan Web & Aplikasi</h1>
+        <p class="bio">Portal akses cepat aplikasi pendidikan dan utilitas digital.</p>
+
+        <div class="links-list">
+            <a href="https://tinyurl.com/LMS-Kelas-5" class="link-card" target="_blank"><span>📚 LMS Pembelajaran Kelas 5</span></a>
+            <a href="https://tinyurl.com/LMS-Kelas-6" class="link-card" target="_blank"><span>📚 LMS Pembelajaran Kelas 6</span></a>
+            <a href="https://tinyurl.com/Aplikasi-Perpustakaan-SDN" class="link-card" target="_blank"><span>🏫 Aplikasi Perpustakaan SDN</span></a>
+            <a href="https://tinyurl.com/Aplikasi-Perpustakaan" class="link-card" target="_blank"><span>📖 Aplikasi Perpustakaan Umum</span></a>
+            <a href="https://tinyurl.com/KIH-dan-PAI" class="link-card" target="_blank"><span>🕌 Portal Materi KIH & PAI</span></a>
+            <a href="https://tinyurl.com/ElektronikCard" class="link-card" target="_blank"><span>🪪 Kartu Elektronik / Digital</span></a>
+            <a href="https://tinyurl.com/GeneretQR" class="link-card" target="_blank"><span>🔲 Generator QR Code</span></a>
+            <a href="https://tinyurl.com/2fvfdydb" class="link-card" target="_blank"><span>🔗 Short Link / Pemendek Tautan</span></a>
+        </div>
+
+        <footer>&copy; 2026 &bull; Dibuat dengan penuh semangat</footer>
+    </div>
+</body>
+</html>
